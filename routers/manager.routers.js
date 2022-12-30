@@ -9,6 +9,6 @@ router.get('/list_all_product', manager.staticAllProduct);
 
 router.post('/create_account', manager.createAccount); //
 router.get('/all_product', manager.getAllProduct);
-router.get('/get_profile_by_username?', manager.getProfileByUsername);
+router.get('/get_profile_by_username', manager.getProfileByUsername);
 
 module.exports = router;
